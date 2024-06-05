@@ -26,10 +26,24 @@ public class Track {
 
     @DBRef
     private Song song;
-    private Optional<Tune> tune;
+    private Tune tune;
     private Date createdAt;
 
     @DBRef
     private User createdBy;
+
+
+    public Track(
+            Song song,
+            Tune tune,
+            Date createdAt,
+            User createdBy
+    ){
+        this.song = song;
+        this.tune = tune;
+        this.createdAt = createdAt;
+        this.createdBy = createdBy;
+
+    }
 
 }

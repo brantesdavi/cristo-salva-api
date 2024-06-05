@@ -1,6 +1,6 @@
 package com.cristosalvaindaiatuba.gerenciador_escalas_igreja.domain.schedule;
 
-import com.cristosalvaindaiatuba.gerenciador_escalas_igreja.domain.user.Musician;
+import com.cristosalvaindaiatuba.gerenciador_escalas_igreja.domain.user.musician.Musician;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
